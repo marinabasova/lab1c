@@ -1,0 +1,31 @@
+пакет  com.company ;
+
+import  java.lang.Math ;
+import  java.util.Random ;
+import  java.util.Scanner ;
+
+public  class  Main {
+
+    public  static  void  main ( String [] args ) {
+        int x, y, a, b;
+
+        Консоль сканера =  новый  сканер ( System . In);
+
+        Система . из . print ( " Количество строк: " );
+        x = консоль . nextInt ();
+        Система . из . print ( " Количество столбцов: " );
+        y = консоль . nextInt ();
+        Система . из . print ( " Число, которое нужно искать: " );
+        а = консоль . nextInt ();
+
+        Случайный случайный =  новый  Случайный ();
+        int [] [] arr =  новый  int [x] [y];
+
+        б = х + у;
+        if (a > b) {
+            Система . из . println (а);
+        }
+
+
+    }
+}
