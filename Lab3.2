@@ -5,7 +5,7 @@ public class Main
      public static void main(String[] args) {
          Scanner scanner = new Scanner(System.in);
          String[] strings = scanner.nextLine().split(" ");
-         String name = strings[0]+" "+strings[1].charAt(0)+". "+strings[2].charAt(0)+".";
+         String name = strings[0].toUpperCase()+" "+strings[1].toUpperCase().charAt(0)+". "+strings[2].toUpperCase().charAt(0)+".";
          
          System.out.println(name);
   
