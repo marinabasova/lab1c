@@ -1,31 +1,30 @@
-пакет  com.company ;
+package com.company;
 
-import  java.lang.Math ;
-import  java.util.Random ;
-import  java.util.Scanner ;
+import java.lang.Math;
+import java.util.Random;
+import java.util.Scanner;
 
-public  class  Main {
+public class Main {
 
-    public  static  void  main ( String [] args ) {
-        int x, y, a, b;
+    public static void main(String[] args) {
+        int x,y,a, b;
 
-        Консоль сканера =  новый  сканер ( System . In);
+        Scanner console = new Scanner(System.in);
 
-        Система . из . print ( " Количество строк: " );
-        x = консоль . nextInt ();
-        Система . из . print ( " Количество столбцов: " );
-        y = консоль . nextInt ();
-        Система . из . print ( " Число, которое нужно искать: " );
-        а = консоль . nextInt ();
+        System.out.print("Количество строк: ");
+        x = console.nextInt();
+        System.out.print("Количество столбцов: ");
+        y = console.nextInt();
+        System.out.print("Число, которое нужно искать: ");
+        a = console.nextInt();
 
-        Случайный случайный =  новый  Случайный ();
-        int [] [] arr =  новый  int [x] [y];
+        Random random = new Random();
+        int[][] arr = new int[x][y];
 
-        б = х + у;
-        if (a > b) {
-            Система . из . println (а);
+        b = x+y;
+        if (a > b){
+            System.out.println(a);
         }
-
 
     }
 }
